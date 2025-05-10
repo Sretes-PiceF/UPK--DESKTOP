@@ -52,12 +52,6 @@
     <Compile Include="Data Buku.Designer.cs">
       <DependentUpon>Data Buku.cs</DependentUpon>
     </Compile>
-    <Compile Include="Data Siswa.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Data Siswa.Designer.cs">
-      <DependentUpon>Data Siswa.cs</DependentUpon>
-    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,9 +66,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Data Siswa.resx">
-      <DependentUpon>Data Siswa.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

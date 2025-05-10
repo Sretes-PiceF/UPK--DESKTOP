@@ -1,0 +1,12 @@
+D:\UPK\Desktop-UPK\Desktop-Perpustakaan\Desktop-Perpustakaan\bin\Debug\Desktop-Perpustakaan.exe.config
+D:\UPK\Desktop-UPK\Desktop-Perpustakaan\Desktop-Perpustakaan\bin\Debug\Desktop-Perpustakaan.exe
+D:\UPK\Desktop-UPK\Desktop-Perpustakaan\Desktop-Perpustakaan\bin\Debug\Desktop-Perpustakaan.pdb
+D:\UPK\Desktop-UPK\Desktop-Perpustakaan\Desktop-Perpustakaan\obj\Debug\Desktop-Perpustakaan.csproj.AssemblyReference.cache
+D:\UPK\Desktop-UPK\Desktop-Perpustakaan\Desktop-Perpustakaan\obj\Debug\Desktop_Perpustakaan.Form1.resources
+D:\UPK\Desktop-UPK\Desktop-Perpustakaan\Desktop-Perpustakaan\obj\Debug\Desktop_Perpustakaan.Properties.Resources.resources
+D:\UPK\Desktop-UPK\Desktop-Perpustakaan\Desktop-Perpustakaan\obj\Debug\Desktop-Perpustakaan.csproj.GenerateResource.cache
+D:\UPK\Desktop-UPK\Desktop-Perpustakaan\Desktop-Perpustakaan\obj\Debug\Desktop-Perpustakaan.csproj.CoreCompileInputs.cache
+D:\UPK\Desktop-UPK\Desktop-Perpustakaan\Desktop-Perpustakaan\obj\Debug\Desktop-Perpustakaan.exe
+D:\UPK\Desktop-UPK\Desktop-Perpustakaan\Desktop-Perpustakaan\obj\Debug\Desktop-Perpustakaan.pdb
+D:\UPK\Desktop-UPK\Desktop-Perpustakaan\Desktop-Perpustakaan\obj\Debug\Desktop_Perpustakaan.Data_Siswa.resources
+D:\UPK\Desktop-UPK\Desktop-Perpustakaan\Desktop-Perpustakaan\obj\Debug\Desktop_Perpustakaan.Form2.resources

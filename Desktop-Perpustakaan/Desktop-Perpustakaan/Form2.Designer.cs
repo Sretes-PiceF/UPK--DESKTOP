@@ -267,7 +267,7 @@
             this.panel1.BackColor = System.Drawing.Color.Teal;
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(-20, 10);
+            this.panel1.Location = new System.Drawing.Point(-20, -1);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(840, 100);
             this.panel1.TabIndex = 17;

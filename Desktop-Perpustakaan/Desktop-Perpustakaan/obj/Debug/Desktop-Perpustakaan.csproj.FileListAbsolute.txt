@@ -10,3 +10,14 @@ D:\UPK\Desktop-UPK\Desktop-Perpustakaan\Desktop-Perpustakaan\obj\Debug\Desktop-P
 D:\UPK\Desktop-UPK\Desktop-Perpustakaan\Desktop-Perpustakaan\obj\Debug\Desktop-Perpustakaan.pdb
 D:\UPK\Desktop-UPK\Desktop-Perpustakaan\Desktop-Perpustakaan\obj\Debug\Desktop_Perpustakaan.Data_Siswa.resources
 D:\UPK\Desktop-UPK\Desktop-Perpustakaan\Desktop-Perpustakaan\obj\Debug\Desktop_Perpustakaan.Form2.resources
+D:\fajar\UPK--DESKTOP\Desktop-Perpustakaan\Desktop-Perpustakaan\bin\Debug\Desktop-Perpustakaan.exe.config
+D:\fajar\UPK--DESKTOP\Desktop-Perpustakaan\Desktop-Perpustakaan\bin\Debug\Desktop-Perpustakaan.exe
+D:\fajar\UPK--DESKTOP\Desktop-Perpustakaan\Desktop-Perpustakaan\bin\Debug\Desktop-Perpustakaan.pdb
+D:\fajar\UPK--DESKTOP\Desktop-Perpustakaan\Desktop-Perpustakaan\obj\Debug\Desktop-Perpustakaan.csproj.AssemblyReference.cache
+D:\fajar\UPK--DESKTOP\Desktop-Perpustakaan\Desktop-Perpustakaan\obj\Debug\Desktop_Perpustakaan.Form1.resources
+D:\fajar\UPK--DESKTOP\Desktop-Perpustakaan\Desktop-Perpustakaan\obj\Debug\Desktop_Perpustakaan.Form2.resources
+D:\fajar\UPK--DESKTOP\Desktop-Perpustakaan\Desktop-Perpustakaan\obj\Debug\Desktop_Perpustakaan.Properties.Resources.resources
+D:\fajar\UPK--DESKTOP\Desktop-Perpustakaan\Desktop-Perpustakaan\obj\Debug\Desktop-Perpustakaan.csproj.GenerateResource.cache
+D:\fajar\UPK--DESKTOP\Desktop-Perpustakaan\Desktop-Perpustakaan\obj\Debug\Desktop-Perpustakaan.csproj.CoreCompileInputs.cache
+D:\fajar\UPK--DESKTOP\Desktop-Perpustakaan\Desktop-Perpustakaan\obj\Debug\Desktop-Perpustakaan.exe
+D:\fajar\UPK--DESKTOP\Desktop-Perpustakaan\Desktop-Perpustakaan\obj\Debug\Desktop-Perpustakaan.pdb

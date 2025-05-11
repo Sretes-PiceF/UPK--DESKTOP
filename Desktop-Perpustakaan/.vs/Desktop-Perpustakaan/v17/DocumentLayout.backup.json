@@ -1,34 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Desktop-Perpustakaan\\UPK--DESKTOP\\Desktop-Perpustakaan\\",
+  "WorkspaceRootPath": "D:\\fajar\\UPK--DESKTOP\\Desktop-Perpustakaan\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0080A255-A7CE-40EC-9220-60A413ECA34D}|Desktop-Perpustakaan\\Desktop-Perpustakaan.csproj|d:\\desktop-perpustakaan\\upk--desktop\\desktop-perpustakaan\\desktop-perpustakaan\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0080A255-A7CE-40EC-9220-60A413ECA34D}|Desktop-Perpustakaan\\Desktop-Perpustakaan.csproj|solutionrelative:desktop-perpustakaan\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0080A255-A7CE-40EC-9220-60A413ECA34D}|Desktop-Perpustakaan\\Desktop-Perpustakaan.csproj|D:\\Desktop-Perpustakaan\\UPK--DESKTOP\\Desktop-Perpustakaan\\desktop-perpustakaan\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{0080A255-A7CE-40EC-9220-60A413ECA34D}|Desktop-Perpustakaan\\Desktop-Perpustakaan.csproj|D:\\fajar\\UPK--DESKTOP\\Desktop-Perpustakaan\\desktop-perpustakaan\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0080A255-A7CE-40EC-9220-60A413ECA34D}|Desktop-Perpustakaan\\Desktop-Perpustakaan.csproj|solutionrelative:desktop-perpustakaan\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0080A255-A7CE-40EC-9220-60A413ECA34D}|Desktop-Perpustakaan\\Desktop-Perpustakaan.csproj|D:\\Desktop-Perpustakaan\\UPK--DESKTOP\\Desktop-Perpustakaan\\desktop-perpustakaan\\data siswa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0080A255-A7CE-40EC-9220-60A413ECA34D}|Desktop-Perpustakaan\\Desktop-Perpustakaan.csproj|solutionrelative:desktop-perpustakaan\\data siswa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0080A255-A7CE-40EC-9220-60A413ECA34D}|Desktop-Perpustakaan\\Desktop-Perpustakaan.csproj|D:\\fajar\\UPK--DESKTOP\\Desktop-Perpustakaan\\desktop-perpustakaan\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0080A255-A7CE-40EC-9220-60A413ECA34D}|Desktop-Perpustakaan\\Desktop-Perpustakaan.csproj|solutionrelative:desktop-perpustakaan\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0080A255-A7CE-40EC-9220-60A413ECA34D}|Desktop-Perpustakaan\\Desktop-Perpustakaan.csproj|d:\\desktop-perpustakaan\\upk--desktop\\desktop-perpustakaan\\desktop-perpustakaan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0080A255-A7CE-40EC-9220-60A413ECA34D}|Desktop-Perpustakaan\\Desktop-Perpustakaan.csproj|solutionrelative:desktop-perpustakaan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0080A255-A7CE-40EC-9220-60A413ECA34D}|Desktop-Perpustakaan\\Desktop-Perpustakaan.csproj|d:\\fajar\\upk--desktop\\desktop-perpustakaan\\desktop-perpustakaan\\koneksi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0080A255-A7CE-40EC-9220-60A413ECA34D}|Desktop-Perpustakaan\\Desktop-Perpustakaan.csproj|solutionrelative:desktop-perpustakaan\\koneksi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0080A255-A7CE-40EC-9220-60A413ECA34D}|Desktop-Perpustakaan\\Desktop-Perpustakaan.csproj|D:\\Desktop-Perpustakaan\\UPK--DESKTOP\\Desktop-Perpustakaan\\desktop-perpustakaan\\data buku.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{0080A255-A7CE-40EC-9220-60A413ECA34D}|Desktop-Perpustakaan\\Desktop-Perpustakaan.csproj|D:\\fajar\\UPK--DESKTOP\\Desktop-Perpustakaan\\desktop-perpustakaan\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0080A255-A7CE-40EC-9220-60A413ECA34D}|Desktop-Perpustakaan\\Desktop-Perpustakaan.csproj|solutionrelative:desktop-perpustakaan\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0080A255-A7CE-40EC-9220-60A413ECA34D}|Desktop-Perpustakaan\\Desktop-Perpustakaan.csproj|D:\\fajar\\UPK--DESKTOP\\Desktop-Perpustakaan\\desktop-perpustakaan\\data buku.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0080A255-A7CE-40EC-9220-60A413ECA34D}|Desktop-Perpustakaan\\Desktop-Perpustakaan.csproj|solutionrelative:desktop-perpustakaan\\data buku.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0080A255-A7CE-40EC-9220-60A413ECA34D}|Desktop-Perpustakaan\\Desktop-Perpustakaan.csproj|D:\\Desktop-Perpustakaan\\UPK--DESKTOP\\Desktop-Perpustakaan\\desktop-perpustakaan\\data siswa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0080A255-A7CE-40EC-9220-60A413ECA34D}|Desktop-Perpustakaan\\Desktop-Perpustakaan.csproj|solutionrelative:desktop-perpustakaan\\data siswa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0080A255-A7CE-40EC-9220-60A413ECA34D}|Desktop-Perpustakaan\\Desktop-Perpustakaan.csproj|D:\\fajar\\UPK--DESKTOP\\Desktop-Perpustakaan\\desktop-perpustakaan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0080A255-A7CE-40EC-9220-60A413ECA34D}|Desktop-Perpustakaan\\Desktop-Perpustakaan.csproj|solutionrelative:desktop-perpustakaan\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0080A255-A7CE-40EC-9220-60A413ECA34D}|Desktop-Perpustakaan\\Desktop-Perpustakaan.csproj|D:\\Desktop-Perpustakaan\\UPK--DESKTOP\\Desktop-Perpustakaan\\desktop-perpustakaan\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0080A255-A7CE-40EC-9220-60A413ECA34D}|Desktop-Perpustakaan\\Desktop-Perpustakaan.csproj|solutionrelative:desktop-perpustakaan\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Desktop-Perpustakaan\\UPK--DESKTOP\\Desktop-Perpustakaan\\Desktop-Perpustakaan\\Data Siswa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,8 +37,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\fajar\\UPK--DESKTOP\\Desktop-Perpustakaan\\Desktop-Perpustakaan\\Form1.cs",
+              "RelativeDocumentMoniker": "Desktop-Perpustakaan\\Form1.cs",
+              "ToolTip": "D:\\fajar\\UPK--DESKTOP\\Desktop-Perpustakaan\\Desktop-Perpustakaan\\Form1.cs",
+              "RelativeToolTip": "Desktop-Perpustakaan\\Form1.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAIwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T12:39:47.372Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -58,61 +71,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Desktop-Perpustakaan\\UPK--DESKTOP\\Desktop-Perpustakaan\\Desktop-Perpustakaan\\Program.cs",
-              "RelativeDocumentMoniker": "Desktop-Perpustakaan\\Program.cs",
-              "ToolTip": "D:\\Desktop-Perpustakaan\\UPK--DESKTOP\\Desktop-Perpustakaan\\Desktop-Perpustakaan\\Program.cs",
-              "RelativeToolTip": "Desktop-Perpustakaan\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T08:30:53.237Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Data Siswa.cs",
-              "DocumentMoniker": "D:\\Desktop-Perpustakaan\\UPK--DESKTOP\\Desktop-Perpustakaan\\Desktop-Perpustakaan\\Data Siswa.cs",
-              "RelativeDocumentMoniker": "Desktop-Perpustakaan\\Data Siswa.cs",
-              "ToolTip": "D:\\Desktop-Perpustakaan\\UPK--DESKTOP\\Desktop-Perpustakaan\\Desktop-Perpustakaan\\Data Siswa.cs",
-              "RelativeToolTip": "Desktop-Perpustakaan\\Data Siswa.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAzwBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T13:28:40.606Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Data Siswa.cs [Design]",
-              "DocumentMoniker": "D:\\Desktop-Perpustakaan\\UPK--DESKTOP\\Desktop-Perpustakaan\\Desktop-Perpustakaan\\Data Siswa.cs",
-              "RelativeDocumentMoniker": "Desktop-Perpustakaan\\Data Siswa.cs",
-              "ToolTip": "D:\\Desktop-Perpustakaan\\UPK--DESKTOP\\Desktop-Perpustakaan\\Desktop-Perpustakaan\\Data Siswa.cs [Design]",
-              "RelativeToolTip": "Desktop-Perpustakaan\\Data Siswa.cs [Design]",
+              "Title": "Koneksi.cs",
+              "DocumentMoniker": "D:\\fajar\\UPK--DESKTOP\\Desktop-Perpustakaan\\Desktop-Perpustakaan\\Koneksi.cs",
+              "RelativeDocumentMoniker": "Desktop-Perpustakaan\\Koneksi.cs",
+              "ToolTip": "D:\\fajar\\UPK--DESKTOP\\Desktop-Perpustakaan\\Desktop-Perpustakaan\\Koneksi.cs",
+              "RelativeToolTip": "Desktop-Perpustakaan\\Koneksi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T13:11:18.221Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-11T10:16:02.859Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form2.cs [Design]",
-              "DocumentMoniker": "D:\\Desktop-Perpustakaan\\UPK--DESKTOP\\Desktop-Perpustakaan\\Desktop-Perpustakaan\\Form2.cs",
-              "RelativeDocumentMoniker": "Desktop-Perpustakaan\\Form2.cs",
-              "ToolTip": "D:\\Desktop-Perpustakaan\\UPK--DESKTOP\\Desktop-Perpustakaan\\Desktop-Perpustakaan\\Form2.cs [Design]",
-              "RelativeToolTip": "Desktop-Perpustakaan\\Form2.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T14:06:35.449Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\Desktop-Perpustakaan\\UPK--DESKTOP\\Desktop-Perpustakaan\\Desktop-Perpustakaan\\Form1.cs",
+              "DocumentMoniker": "D:\\fajar\\UPK--DESKTOP\\Desktop-Perpustakaan\\Desktop-Perpustakaan\\Form1.cs",
               "RelativeDocumentMoniker": "Desktop-Perpustakaan\\Form1.cs",
-              "ToolTip": "D:\\Desktop-Perpustakaan\\UPK--DESKTOP\\Desktop-Perpustakaan\\Desktop-Perpustakaan\\Form1.cs [Design]",
+              "ToolTip": "D:\\fajar\\UPK--DESKTOP\\Desktop-Perpustakaan\\Desktop-Perpustakaan\\Form1.cs [Design]",
               "RelativeToolTip": "Desktop-Perpustakaan\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-09T12:29:03.301Z",
@@ -122,25 +98,47 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Data Buku.cs [Design]",
-              "DocumentMoniker": "D:\\Desktop-Perpustakaan\\UPK--DESKTOP\\Desktop-Perpustakaan\\Desktop-Perpustakaan\\Data Buku.cs",
+              "DocumentMoniker": "D:\\fajar\\UPK--DESKTOP\\Desktop-Perpustakaan\\Desktop-Perpustakaan\\Data Buku.cs",
               "RelativeDocumentMoniker": "Desktop-Perpustakaan\\Data Buku.cs",
-              "ToolTip": "D:\\UPK\\Desktop-UPK\\Desktop-Perpustakaan\\Desktop-Perpustakaan\\Data Buku.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\UPK\\Desktop-UPK\\Desktop-Perpustakaan\\Desktop-Perpustakaan\\Data Buku.cs [Design]",
+              "ToolTip": "D:\\fajar\\UPK--DESKTOP\\Desktop-Perpustakaan\\Desktop-Perpustakaan\\Data Buku.cs [Design]",
+              "RelativeToolTip": "Desktop-Perpustakaan\\Data Buku.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-09T14:06:03.436Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\Desktop-Perpustakaan\\UPK--DESKTOP\\Desktop-Perpustakaan\\Desktop-Perpustakaan\\Form1.cs",
-              "RelativeDocumentMoniker": "Desktop-Perpustakaan\\Form1.cs",
-              "ToolTip": "D:\\Desktop-Perpustakaan\\UPK--DESKTOP\\Desktop-Perpustakaan\\Desktop-Perpustakaan\\Form1.cs",
-              "RelativeToolTip": "Desktop-Perpustakaan\\Form1.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAYwBoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Form2.cs [Design]",
+              "DocumentMoniker": "D:\\fajar\\UPK--DESKTOP\\Desktop-Perpustakaan\\Desktop-Perpustakaan\\Form2.cs",
+              "RelativeDocumentMoniker": "Desktop-Perpustakaan\\Form2.cs",
+              "ToolTip": "D:\\fajar\\UPK--DESKTOP\\Desktop-Perpustakaan\\Desktop-Perpustakaan\\Form2.cs [Design]",
+              "RelativeToolTip": "Desktop-Perpustakaan\\Form2.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T12:39:47.372Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-09T14:06:35.449Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Data Siswa.cs",
+              "DocumentMoniker": "D:\\Desktop-Perpustakaan\\UPK--DESKTOP\\Desktop-Perpustakaan\\Desktop-Perpustakaan\\Data Siswa.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Desktop-Perpustakaan\\UPK--DESKTOP\\Desktop-Perpustakaan\\Desktop-Perpustakaan\\Data Siswa.cs",
+              "ToolTip": "D:\\Desktop-Perpustakaan\\UPK--DESKTOP\\Desktop-Perpustakaan\\Desktop-Perpustakaan\\Data Siswa.cs",
+              "RelativeToolTip": "..\\..\\..\\Desktop-Perpustakaan\\UPK--DESKTOP\\Desktop-Perpustakaan\\Desktop-Perpustakaan\\Data Siswa.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T13:28:40.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\fajar\\UPK--DESKTOP\\Desktop-Perpustakaan\\Desktop-Perpustakaan\\Program.cs",
+              "RelativeDocumentMoniker": "Desktop-Perpustakaan\\Program.cs",
+              "ToolTip": "D:\\fajar\\UPK--DESKTOP\\Desktop-Perpustakaan\\Desktop-Perpustakaan\\Program.cs",
+              "RelativeToolTip": "Desktop-Perpustakaan\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T08:30:53.237Z"
             }
           ]
         }

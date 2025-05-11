@@ -16,5 +16,17 @@ namespace Desktop_Perpustakaan
         {
             InitializeComponent();
         }
+
+        private void data_Pengembalian1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tKeluar_Click(object sender, EventArgs e)
+        {
+            Form1 window = new Form1();
+            this.Close();
+            window.Show();
+        }
     }
 }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Desktop_Perpustakaan
 {
-    public partial class Form3 : Form
+    public partial class FormSiswa : Form
     {
-        public Form3()
+        public FormSiswa()
         {
             InitializeComponent();
         }

@@ -10,7 +10,7 @@ namespace Desktop_Perpustakaan
     {
         public static string conn = "" +
         "Data Source = DESKTOP-26BJV6N\\SQLEXPRESS; " +
-        "Initial Catalog = Desktop-Perpustakaan ; " +
+        "Initial Catalog = Desktop-Perpustakaan; " +
         "Integrated Security = True; " + 
         "TrustServerCertificate = True; ";
     }

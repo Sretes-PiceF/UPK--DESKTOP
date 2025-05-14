@@ -24,9 +24,20 @@ namespace Desktop_Perpustakaan
 
         private void tKeluar_Click(object sender, EventArgs e)
         {
-            Form1 window = new Form1();
+            Login window = new Login();
             this.Close();
             window.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form2 windoww = new Form2();
+            windoww.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

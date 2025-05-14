@@ -1,25 +1,27 @@
-﻿using Microsoft.Data.SqlClient;
-using System;
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
+using System.Drawing;
+using System.Linq;
+using System.Reflection;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Desktop_Perpustakaan
 {
-    public partial class Form1 : Form
+    public partial class Login : Form
     {
         public SqlConnection connection = new SqlConnection(Koneksi.conn);
         public SqlCommand command;
         public SqlDataAdapter adapter;
         public DataTable tabel;
         public SqlDataReader reader;
-        public Form1()
+        public Login()
         {
             InitializeComponent();
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -27,7 +29,7 @@ namespace Desktop_Perpustakaan
 
         }
 
-        private void masuk_Click(object sender, EventArgs e)
+        private void tMasuk_MouseClick(object sender, MouseEventArgs e)
         {
 
             connection.Open();
@@ -35,9 +37,13 @@ namespace Desktop_Perpustakaan
             string username = tUsername.Text;
             string password = tPassword.Text;
 
-            string sql = "SELECT * FROM [user] WHERE username = '"+ username + "' AND PASSWORD = '"+ password + "'";
+            string sql = "SELECT * FROM [user] WHERE username = '" + username + "' AND PASSWORD = '" + password + "'";
 
             command = new SqlCommand(sql, connection);
+
+            command.Parameters.AddWithValue("@username", username);
+            command.Parameters.AddWithValue("@password", password);
+
             adapter = new SqlDataAdapter(command);
             tabel = new DataTable();
             adapter.Fill(tabel);
@@ -48,14 +54,20 @@ namespace Desktop_Perpustakaan
                 {
                     if (row["role"].ToString() == "admin")
                     {
+                        reader = command.ExecuteReader();
+                        reader.Read();
+                    
                         this.Hide();
                         Form2 window = new Form2();
                         window.Show();
                     }
                     else if (row["role"].ToString() == "siswa")
                     {
+                        reader = command.ExecuteReader();
+                        reader.Read();
+
                         this.Hide();
-                        Form3 windows = new Form3();
+                        FormSiswa windows = new FormSiswa();
                         windows.Show();
                     }
                 }
@@ -65,6 +77,11 @@ namespace Desktop_Perpustakaan
                 MessageBox.Show("Username salah atau Password Salah", "Gagal Login", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             connection.Close();
+        }
+
+        private void tMasuk_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

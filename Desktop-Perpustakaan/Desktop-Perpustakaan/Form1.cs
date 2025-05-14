@@ -1,8 +1,8 @@
-﻿using Microsoft.Data.SqlClient;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Reflection;
@@ -12,7 +12,7 @@ using System.Windows.Forms;
 
 namespace Desktop_Perpustakaan
 {
-    public partial class Login : Form
+    public partial class Form1 : Form
     {
         public SqlConnection connection = new SqlConnection(Koneksi.conn);
         public SqlCommand command;
@@ -20,17 +20,17 @@ namespace Desktop_Perpustakaan
         public DataTable tabel;
         public SqlDataReader reader;
 
-        public Login()
+        public Form1()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void tMasuk_MouseClick(object sender, MouseEventArgs e)
+        private void tMasuk_Click(object sender, EventArgs e)
         {
 
             connection.Open();
@@ -51,6 +51,7 @@ namespace Desktop_Perpustakaan
                 {
                     if (row["role"].ToString() == "admin")
                     {
+
                         this.Hide();
                         Form2 window = new Form2();
                         window.Show();
@@ -67,12 +68,8 @@ namespace Desktop_Perpustakaan
             {
                 MessageBox.Show("Username atau password salah", "Gagal Login", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+
             connection.Close();
-        }
-
-        private void tMasuk_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

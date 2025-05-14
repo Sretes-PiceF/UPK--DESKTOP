@@ -220,3 +220,4 @@ D:\Desktop-Perpustakaan\UPK--DESKTOP\Desktop-Perpustakaan\Desktop-Perpustakaan\o
 D:\Desktop-Perpustakaan\UPK--DESKTOP\Desktop-Perpustakaan\Desktop-Perpustakaan\obj\Debug\Desktop_Perpustakaan.Login.resources
 D:\Desktop-Perpustakaan\UPK--DESKTOP\Desktop-Perpustakaan\Desktop-Perpustakaan\obj\Debug\Desktop_Perpustakaan.Data_Buku.resources
 D:\Desktop-Perpustakaan\UPK--DESKTOP\Desktop-Perpustakaan\Desktop-Perpustakaan\obj\Debug\Desktop_Perpustakaan.Data_Peminjaman.resources
+D:\Desktop-Perpustakaan\UPK--DESKTOP\Desktop-Perpustakaan\Desktop-Perpustakaan\obj\Debug\Desktop_Perpustakaan.Form1.resources

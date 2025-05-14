@@ -54,9 +54,6 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.data_Pengembalian1 = new Desktop_Perpustakaan.Data_Pengembalian();
-            this.data_Peminjaman1 = new Desktop_Perpustakaan.Data_Peminjaman();
-            this.data_Buku1 = new Desktop_Perpustakaan.Data_Buku();
             this.button7 = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -307,27 +304,7 @@
             this.button6.TabIndex = 86;
             this.button6.Text = "button6";
             this.button6.UseVisualStyleBackColor = false;
-            // 
-            // data_Pengembalian1
-            // 
-            this.data_Pengembalian1.Location = new System.Drawing.Point(-15, 167);
-            this.data_Pengembalian1.Name = "data_Pengembalian1";
-            this.data_Pengembalian1.Size = new System.Drawing.Size(803, 329);
-            this.data_Pengembalian1.TabIndex = 83;
-            // 
-            // data_Peminjaman1
-            // 
-            this.data_Peminjaman1.Location = new System.Drawing.Point(-1, 167);
-            this.data_Peminjaman1.Name = "data_Peminjaman1";
-            this.data_Peminjaman1.Size = new System.Drawing.Size(803, 329);
-            this.data_Peminjaman1.TabIndex = 82;
-            // 
-            // data_Buku1
-            // 
-            this.data_Buku1.Location = new System.Drawing.Point(-1, 165);
-            this.data_Buku1.Name = "data_Buku1";
-            this.data_Buku1.Size = new System.Drawing.Size(809, 331);
-            this.data_Buku1.TabIndex = 81;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
@@ -338,6 +315,7 @@
             this.button7.TabIndex = 87;
             this.button7.Text = "button7";
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // Form2
             // 
@@ -348,9 +326,6 @@
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.data_Pengembalian1);
-            this.Controls.Add(this.data_Peminjaman1);
-            this.Controls.Add(this.data_Buku1);
             this.Controls.Add(this.tKeluar);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -401,9 +376,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label2;
-        private Data_Buku data_Buku1;
-        private Data_Peminjaman data_Peminjaman1;
-        private Data_Pengembalian data_Pengembalian1;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;

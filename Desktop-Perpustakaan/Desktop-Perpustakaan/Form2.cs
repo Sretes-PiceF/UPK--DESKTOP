@@ -31,13 +31,24 @@ namespace Desktop_Perpustakaan
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Form2 windoww = new Form2();
-            windoww.Show();
+            this.Hide();
+            Form2 window = new Form2();
+            window.Show();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            
+            data_Buku1.BringToFront();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            data_Peminjaman1.BringToFront();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            data_Pengembalian1.BringToFront();
         }
     }
 }

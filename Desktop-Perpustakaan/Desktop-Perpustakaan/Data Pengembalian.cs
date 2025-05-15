@@ -21,5 +21,17 @@ namespace Desktop_Perpustakaan
         {
 
         }
+
+        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tKeluar_Click(object sender, EventArgs e)
+        {
+            Login Form = new Login();
+            Form.Show();
+            this.FindForm().Close();
+        }
     }
 }

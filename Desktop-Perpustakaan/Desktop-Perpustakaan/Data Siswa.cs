@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Desktop_Perpustakaan
 {
-    public partial class Data_Buku : UserControl
+    public partial class Data_Siswa : UserControl
     {
-        public Data_Buku()
+        public Data_Siswa()
         {
             InitializeComponent();
         }

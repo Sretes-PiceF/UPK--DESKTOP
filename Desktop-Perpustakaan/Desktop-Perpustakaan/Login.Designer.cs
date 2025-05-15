@@ -38,6 +38,7 @@
             this.tUsername = new System.Windows.Forms.TextBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -56,6 +57,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.tMasuk);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.tPassword);
@@ -70,7 +72,8 @@
             // 
             // tMasuk
             // 
-            this.tMasuk.Location = new System.Drawing.Point(81, 198);
+            this.tMasuk.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.tMasuk.Location = new System.Drawing.Point(143, 205);
             this.tMasuk.Name = "tMasuk";
             this.tMasuk.Size = new System.Drawing.Size(102, 34);
             this.tMasuk.TabIndex = 7;
@@ -134,6 +137,17 @@
             this.label1.Text = "Username";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(21, 205);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(102, 34);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "Cancel";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.button1_MouseClick);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -162,5 +176,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button tMasuk;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button1;
     }
 }

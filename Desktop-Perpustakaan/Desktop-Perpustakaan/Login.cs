@@ -52,7 +52,7 @@ namespace Desktop_Perpustakaan
                     if (row["role"].ToString() == "admin")
                     {
                         this.Hide();
-                        Form2 window = new Form2();
+                        App window = new App();
                         window.Show();
                     }
                     else if (row["role"].ToString() == "siswa")
@@ -73,6 +73,16 @@ namespace Desktop_Perpustakaan
         private void tMasuk_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_MouseClick(object sender, MouseEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

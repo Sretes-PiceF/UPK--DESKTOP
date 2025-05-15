@@ -16,5 +16,12 @@ namespace Desktop_Perpustakaan
         {
             InitializeComponent();
         }
+
+        private void tKeluar_Click(object sender, EventArgs e)
+        {
+            Login Form = new Login();
+            Form.Show();
+            this.FindForm().Close();
+        }
     }
 }

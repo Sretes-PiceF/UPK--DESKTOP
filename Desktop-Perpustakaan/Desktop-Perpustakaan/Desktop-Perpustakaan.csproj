@@ -180,6 +180,12 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="App.Designer.cs">
+      <DependentUpon>App.cs</DependentUpon>
+    </Compile>
     <Compile Include="Data Buku.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -198,11 +204,11 @@
     <Compile Include="Data Pengembalian.Designer.cs">
       <DependentUpon>Data Pengembalian.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
-      <SubType>Form</SubType>
+    <Compile Include="Data Siswa.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="Data Siswa.Designer.cs">
+      <DependentUpon>Data Siswa.cs</DependentUpon>
     </Compile>
     <Compile Include="FormSiswa.cs">
       <SubType>Form</SubType>
@@ -219,6 +225,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="App.resx">
+      <DependentUpon>App.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Data Buku.resx">
       <DependentUpon>Data Buku.cs</DependentUpon>
     </EmbeddedResource>
@@ -228,8 +237,11 @@
     <EmbeddedResource Include="Data Pengembalian.resx">
       <DependentUpon>Data Pengembalian.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="Data Siswa.resx">
+      <DependentUpon>Data Siswa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSiswa.resx">
+      <DependentUpon>FormSiswa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>

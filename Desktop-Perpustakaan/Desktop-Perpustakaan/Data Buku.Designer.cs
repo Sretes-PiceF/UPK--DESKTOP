@@ -273,6 +273,7 @@
             this.thnterbit.Name = "thnterbit";
             this.thnterbit.Size = new System.Drawing.Size(167, 20);
             this.thnterbit.TabIndex = 115;
+            this.thnterbit.TextChanged += new System.EventHandler(this.thnterbit_TextChanged);
             // 
             // Penerbit
             // 
@@ -294,6 +295,7 @@
             this.judul.Name = "judul";
             this.judul.Size = new System.Drawing.Size(167, 20);
             this.judul.TabIndex = 112;
+            this.judul.TextChanged += new System.EventHandler(this.judul_TextChanged);
             // 
             // Data_Buku
             // 

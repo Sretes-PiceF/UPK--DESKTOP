@@ -23,5 +23,15 @@ namespace Desktop_Perpustakaan
             Form.Show();
             this.FindForm().Close();
         }
+
+        private void judul_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void thnterbit_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

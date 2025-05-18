@@ -14,5 +14,8 @@ namespace Desktop_Perpustakaan
         "Integrated Security = True; " + 
         "TrustServerCertificate = True; ";
     }
-
+    public class Model
+    {
+        public static string name { get; set; }
+    }
 }

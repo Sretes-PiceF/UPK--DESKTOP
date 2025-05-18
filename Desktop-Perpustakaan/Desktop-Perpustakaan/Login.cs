@@ -51,12 +51,21 @@ namespace Desktop_Perpustakaan
                 {
                     if (row["role"].ToString() == "admin")
                     {
+                        reader = command.ExecuteReader();
+                        reader.Read();
+                        Model.name = reader.GetString(1);
+
                         this.Hide();
                         App window = new App();
                         window.Show();
                     }
                     else if (row["role"].ToString() == "siswa")
                     {
+
+                        reader = command.ExecuteReader();
+                        reader.Read();
+                        Model.name = reader.GetString(1);
+
                         this.Hide();
                         FormSiswa windows = new FormSiswa();
                         windows.Show();
@@ -81,6 +90,16 @@ namespace Desktop_Perpustakaan
         }
 
         private void button1_MouseClick(object sender, MouseEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Login_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
         }

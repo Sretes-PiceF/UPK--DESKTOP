@@ -41,10 +41,12 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.data_Siswa1 = new Desktop_Perpustakaan.Data_Siswa();
             this.data_Buku1 = new Desktop_Perpustakaan.Data_Buku();
             this.data_Peminjaman1 = new Desktop_Perpustakaan.Data_Peminjaman();
             this.data_Pengembalian1 = new Desktop_Perpustakaan.Data_Pengembalian();
+            this.label4 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -56,6 +58,8 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.DarkCyan;
+            this.panel1.Controls.Add(this.label3);
+            this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(-1, 0);
@@ -180,43 +184,64 @@
             this.pictureBox5.TabIndex = 9;
             this.pictureBox5.TabStop = false;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(136, 44);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(138, 26);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Welcome to, ";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
             // data_Siswa1
             // 
-            this.data_Siswa1.Location = new System.Drawing.Point(-1, 172);
+            this.data_Siswa1.Location = new System.Drawing.Point(-1, 180);
             this.data_Siswa1.Name = "data_Siswa1";
-            this.data_Siswa1.Size = new System.Drawing.Size(882, 331);
-            this.data_Siswa1.TabIndex = 10;
+            this.data_Siswa1.Size = new System.Drawing.Size(880, 328);
+            this.data_Siswa1.TabIndex = 13;
             // 
             // data_Buku1
             // 
-            this.data_Buku1.Location = new System.Drawing.Point(-1, 172);
+            this.data_Buku1.Location = new System.Drawing.Point(-3, 177);
             this.data_Buku1.Name = "data_Buku1";
-            this.data_Buku1.Size = new System.Drawing.Size(882, 342);
-            this.data_Buku1.TabIndex = 11;
+            this.data_Buku1.Size = new System.Drawing.Size(882, 331);
+            this.data_Buku1.TabIndex = 12;
             // 
             // data_Peminjaman1
             // 
-            this.data_Peminjaman1.Location = new System.Drawing.Point(-1, 172);
+            this.data_Peminjaman1.Location = new System.Drawing.Point(-3, 180);
             this.data_Peminjaman1.Name = "data_Peminjaman1";
-            this.data_Peminjaman1.Size = new System.Drawing.Size(882, 342);
-            this.data_Peminjaman1.TabIndex = 12;
+            this.data_Peminjaman1.Size = new System.Drawing.Size(882, 328);
+            this.data_Peminjaman1.TabIndex = 11;
             // 
             // data_Pengembalian1
             // 
-            this.data_Pengembalian1.Location = new System.Drawing.Point(-1, 172);
+            this.data_Pengembalian1.Location = new System.Drawing.Point(-3, 177);
             this.data_Pengembalian1.Name = "data_Pengembalian1";
-            this.data_Pengembalian1.Size = new System.Drawing.Size(882, 342);
-            this.data_Pengembalian1.TabIndex = 13;
+            this.data_Pengembalian1.Size = new System.Drawing.Size(882, 331);
+            this.data_Pengembalian1.TabIndex = 10;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(12, 44);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(138, 26);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Welcome to, ";
             // 
             // App
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(877, 506);
-            this.Controls.Add(this.data_Pengembalian1);
-            this.Controls.Add(this.data_Peminjaman1);
-            this.Controls.Add(this.data_Buku1);
             this.Controls.Add(this.data_Siswa1);
+            this.Controls.Add(this.data_Buku1);
+            this.Controls.Add(this.data_Peminjaman1);
+            this.Controls.Add(this.data_Pengembalian1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.button3);
@@ -230,6 +255,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "App";
             this.Text = "App";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.App_FormClosing);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -255,9 +281,11 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
-        private Data_Siswa data_Siswa1;
-        private Data_Buku data_Buku1;
-        private Data_Peminjaman data_Peminjaman1;
         private Data_Pengembalian data_Pengembalian1;
+        private Data_Peminjaman data_Peminjaman1;
+        private Data_Buku data_Buku1;
+        private Data_Siswa data_Siswa1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }

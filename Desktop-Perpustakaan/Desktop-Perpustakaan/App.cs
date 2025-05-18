@@ -15,6 +15,7 @@ namespace Desktop_Perpustakaan
         public App()
         {
             InitializeComponent();
+            label3.Text = Model.name;
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -24,27 +25,37 @@ namespace Desktop_Perpustakaan
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+
             data_Siswa1.BringToFront();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
+
             data_Buku1.BringToFront();
 
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            
+
             data_Peminjaman1.BringToFront();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-           
+
             data_Pengembalian1.BringToFront();
+        }
+
+        private void App_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
